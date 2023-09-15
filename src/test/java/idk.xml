@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="classes" thread-count="2">
+<listeners>
+	<listener class-name="pk.ExtentReport.Listeners"/>
+</listeners>
+	<test name="Test">
+		<classes>
+			<class name="pk_SingleExtentReport_Example.Double_Click_Example" />
+			<class name="pk_SingleExtentReport_Example.Drag_and_Drop" />
+			<!--class name="pk_SingleExtentReport_Example.OrangeHRM_Login_TestNG" /-->
+			<!--class name="pk_Orange_HRM.Delete_AddedUser_From_WebTable" /-->
+			<!--class name="pk_Orange_HRM.OrangeHRM_Login_All_Tcs_Scenario" /-->
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
